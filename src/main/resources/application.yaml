@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  codec:
+    max-in-memory-size: 10MB
+  datasource:
+    url: jdbc:h2:file:./data/sdbotdb;AUTO_SERVER=TRUE
+    username: sa
+    password: password
+    embedded-database-connection: h2
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+
+telegram:
+  bot:
+    username: sd_generative_ai_bot
+    webhook-path: https://ee93-88-201-206-212.ngrok-free.app
+
+stable-diffusion:
+  path: http://localhost:7860/sdapi/v1

@@ -1,0 +1,2 @@
+## <a id="setting-environment-variables"></a> Setting Environment Variables #
+To link a bot you need to specify **telegram.bot.token** environment variable. You can find instructions [here](#https://github.com/rubenlagus/TelegramBots/blob/master/TelegramBots.wiki/Handling-Bot-Tokens.md#setting-environment-variables).

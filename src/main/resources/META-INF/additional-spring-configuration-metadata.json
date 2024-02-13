@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "telegram.bot.username",
+      "type": "java.lang.String",
+      "description": "Bot username."
+    },
+    {
+      "name": "telegram.bot.webhook-path",
+      "type": "java.lang.String",
+      "description": "Webhook address to which Telegram will send updates."
+    },
+    {
+      "name": "telegram.bot.proxy.host",
+      "type": "java.lang.String",
+      "description": "Proxy host for interactions with Telegram Servers."
+    },
+    {
+      "name": "telegram.bot.proxy.port",
+      "type": "java.lang.Integer",
+      "description": "Proxy port for interactions with Telegram Servers."
+    },
+    {
+      "name": "telegram.bot.proxy.type",
+      "type": "org.telegram.telegrambots.bots.DefaultBotOptions.ProxyType",
+      "description": "Proxy type for interactions with Telegram Servers."
+    },
+    {
+      "name": "stable-diffusion.path",
+      "type": "java.lang.String",
+      "description": "Stable Diffusion API address."
+    }
+  ]
+}
